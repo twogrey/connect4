@@ -76,7 +76,7 @@ input {
 				}
 			}
 			@for $j from 1 through $nbRow { // Victory with a completed diagonal (to the left)
-				@for $k from 4 through $nbCol {
+				@for $k from 1 through 4 {
 					&.col-#{$k}.row-#{$j + 3}:checked ~ &.col-#{$k + 1}.row-#{$j + 2}:checked ~ &.col-#{$k + 2}.row-#{$j + 1}:checked ~ &.col-#{$k + 3}.row-#{$j}:checked {
 						~ .end {
 							display: block;

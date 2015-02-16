@@ -965,6 +965,30 @@ input.player-1.col-7.row-9:checked ~ input.player-1.col-6.row-8:checked ~ input.
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
+input.player-1.col-1.row-4:checked ~ input.player-1.col-2.row-3:checked ~ input.player-1.col-3.row-2:checked ~ input.player-1.col-4.row-1:checked ~ .end {
+  display: block;
+}
+/* line 84, ../sass/_slots.scss */
+input.player-1.col-1.row-4:checked ~ input.player-1.col-2.row-3:checked ~ input.player-1.col-3.row-2:checked ~ input.player-1.col-4.row-1:checked ~ .end h3:before {
+  content: "Player 1 wins !";
+}
+/* line 81, ../sass/_slots.scss */
+input.player-1.col-2.row-4:checked ~ input.player-1.col-3.row-3:checked ~ input.player-1.col-4.row-2:checked ~ input.player-1.col-5.row-1:checked ~ .end {
+  display: block;
+}
+/* line 84, ../sass/_slots.scss */
+input.player-1.col-2.row-4:checked ~ input.player-1.col-3.row-3:checked ~ input.player-1.col-4.row-2:checked ~ input.player-1.col-5.row-1:checked ~ .end h3:before {
+  content: "Player 1 wins !";
+}
+/* line 81, ../sass/_slots.scss */
+input.player-1.col-3.row-4:checked ~ input.player-1.col-4.row-3:checked ~ input.player-1.col-5.row-2:checked ~ input.player-1.col-6.row-1:checked ~ .end {
+  display: block;
+}
+/* line 84, ../sass/_slots.scss */
+input.player-1.col-3.row-4:checked ~ input.player-1.col-4.row-3:checked ~ input.player-1.col-5.row-2:checked ~ input.player-1.col-6.row-1:checked ~ .end h3:before {
+  content: "Player 1 wins !";
+}
+/* line 81, ../sass/_slots.scss */
 input.player-1.col-4.row-4:checked ~ input.player-1.col-5.row-3:checked ~ input.player-1.col-6.row-2:checked ~ input.player-1.col-7.row-1:checked ~ .end {
   display: block;
 }
@@ -973,27 +997,27 @@ input.player-1.col-4.row-4:checked ~ input.player-1.col-5.row-3:checked ~ input.
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-5.row-4:checked ~ input.player-1.col-6.row-3:checked ~ input.player-1.col-7.row-2:checked ~ input.player-1.col-8.row-1:checked ~ .end {
+input.player-1.col-1.row-5:checked ~ input.player-1.col-2.row-4:checked ~ input.player-1.col-3.row-3:checked ~ input.player-1.col-4.row-2:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-5.row-4:checked ~ input.player-1.col-6.row-3:checked ~ input.player-1.col-7.row-2:checked ~ input.player-1.col-8.row-1:checked ~ .end h3:before {
+input.player-1.col-1.row-5:checked ~ input.player-1.col-2.row-4:checked ~ input.player-1.col-3.row-3:checked ~ input.player-1.col-4.row-2:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-6.row-4:checked ~ input.player-1.col-7.row-3:checked ~ input.player-1.col-8.row-2:checked ~ input.player-1.col-9.row-1:checked ~ .end {
+input.player-1.col-2.row-5:checked ~ input.player-1.col-3.row-4:checked ~ input.player-1.col-4.row-3:checked ~ input.player-1.col-5.row-2:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-6.row-4:checked ~ input.player-1.col-7.row-3:checked ~ input.player-1.col-8.row-2:checked ~ input.player-1.col-9.row-1:checked ~ .end h3:before {
+input.player-1.col-2.row-5:checked ~ input.player-1.col-3.row-4:checked ~ input.player-1.col-4.row-3:checked ~ input.player-1.col-5.row-2:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-7.row-4:checked ~ input.player-1.col-8.row-3:checked ~ input.player-1.col-9.row-2:checked ~ input.player-1.col-10.row-1:checked ~ .end {
+input.player-1.col-3.row-5:checked ~ input.player-1.col-4.row-4:checked ~ input.player-1.col-5.row-3:checked ~ input.player-1.col-6.row-2:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-7.row-4:checked ~ input.player-1.col-8.row-3:checked ~ input.player-1.col-9.row-2:checked ~ input.player-1.col-10.row-1:checked ~ .end h3:before {
+input.player-1.col-3.row-5:checked ~ input.player-1.col-4.row-4:checked ~ input.player-1.col-5.row-3:checked ~ input.player-1.col-6.row-2:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1005,27 +1029,27 @@ input.player-1.col-4.row-5:checked ~ input.player-1.col-5.row-4:checked ~ input.
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-5.row-5:checked ~ input.player-1.col-6.row-4:checked ~ input.player-1.col-7.row-3:checked ~ input.player-1.col-8.row-2:checked ~ .end {
+input.player-1.col-1.row-6:checked ~ input.player-1.col-2.row-5:checked ~ input.player-1.col-3.row-4:checked ~ input.player-1.col-4.row-3:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-5.row-5:checked ~ input.player-1.col-6.row-4:checked ~ input.player-1.col-7.row-3:checked ~ input.player-1.col-8.row-2:checked ~ .end h3:before {
+input.player-1.col-1.row-6:checked ~ input.player-1.col-2.row-5:checked ~ input.player-1.col-3.row-4:checked ~ input.player-1.col-4.row-3:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-6.row-5:checked ~ input.player-1.col-7.row-4:checked ~ input.player-1.col-8.row-3:checked ~ input.player-1.col-9.row-2:checked ~ .end {
+input.player-1.col-2.row-6:checked ~ input.player-1.col-3.row-5:checked ~ input.player-1.col-4.row-4:checked ~ input.player-1.col-5.row-3:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-6.row-5:checked ~ input.player-1.col-7.row-4:checked ~ input.player-1.col-8.row-3:checked ~ input.player-1.col-9.row-2:checked ~ .end h3:before {
+input.player-1.col-2.row-6:checked ~ input.player-1.col-3.row-5:checked ~ input.player-1.col-4.row-4:checked ~ input.player-1.col-5.row-3:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-7.row-5:checked ~ input.player-1.col-8.row-4:checked ~ input.player-1.col-9.row-3:checked ~ input.player-1.col-10.row-2:checked ~ .end {
+input.player-1.col-3.row-6:checked ~ input.player-1.col-4.row-5:checked ~ input.player-1.col-5.row-4:checked ~ input.player-1.col-6.row-3:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-7.row-5:checked ~ input.player-1.col-8.row-4:checked ~ input.player-1.col-9.row-3:checked ~ input.player-1.col-10.row-2:checked ~ .end h3:before {
+input.player-1.col-3.row-6:checked ~ input.player-1.col-4.row-5:checked ~ input.player-1.col-5.row-4:checked ~ input.player-1.col-6.row-3:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1037,27 +1061,27 @@ input.player-1.col-4.row-6:checked ~ input.player-1.col-5.row-5:checked ~ input.
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-5.row-6:checked ~ input.player-1.col-6.row-5:checked ~ input.player-1.col-7.row-4:checked ~ input.player-1.col-8.row-3:checked ~ .end {
+input.player-1.col-1.row-7:checked ~ input.player-1.col-2.row-6:checked ~ input.player-1.col-3.row-5:checked ~ input.player-1.col-4.row-4:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-5.row-6:checked ~ input.player-1.col-6.row-5:checked ~ input.player-1.col-7.row-4:checked ~ input.player-1.col-8.row-3:checked ~ .end h3:before {
+input.player-1.col-1.row-7:checked ~ input.player-1.col-2.row-6:checked ~ input.player-1.col-3.row-5:checked ~ input.player-1.col-4.row-4:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-6.row-6:checked ~ input.player-1.col-7.row-5:checked ~ input.player-1.col-8.row-4:checked ~ input.player-1.col-9.row-3:checked ~ .end {
+input.player-1.col-2.row-7:checked ~ input.player-1.col-3.row-6:checked ~ input.player-1.col-4.row-5:checked ~ input.player-1.col-5.row-4:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-6.row-6:checked ~ input.player-1.col-7.row-5:checked ~ input.player-1.col-8.row-4:checked ~ input.player-1.col-9.row-3:checked ~ .end h3:before {
+input.player-1.col-2.row-7:checked ~ input.player-1.col-3.row-6:checked ~ input.player-1.col-4.row-5:checked ~ input.player-1.col-5.row-4:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-7.row-6:checked ~ input.player-1.col-8.row-5:checked ~ input.player-1.col-9.row-4:checked ~ input.player-1.col-10.row-3:checked ~ .end {
+input.player-1.col-3.row-7:checked ~ input.player-1.col-4.row-6:checked ~ input.player-1.col-5.row-5:checked ~ input.player-1.col-6.row-4:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-7.row-6:checked ~ input.player-1.col-8.row-5:checked ~ input.player-1.col-9.row-4:checked ~ input.player-1.col-10.row-3:checked ~ .end h3:before {
+input.player-1.col-3.row-7:checked ~ input.player-1.col-4.row-6:checked ~ input.player-1.col-5.row-5:checked ~ input.player-1.col-6.row-4:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1069,27 +1093,27 @@ input.player-1.col-4.row-7:checked ~ input.player-1.col-5.row-6:checked ~ input.
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-5.row-7:checked ~ input.player-1.col-6.row-6:checked ~ input.player-1.col-7.row-5:checked ~ input.player-1.col-8.row-4:checked ~ .end {
+input.player-1.col-1.row-8:checked ~ input.player-1.col-2.row-7:checked ~ input.player-1.col-3.row-6:checked ~ input.player-1.col-4.row-5:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-5.row-7:checked ~ input.player-1.col-6.row-6:checked ~ input.player-1.col-7.row-5:checked ~ input.player-1.col-8.row-4:checked ~ .end h3:before {
+input.player-1.col-1.row-8:checked ~ input.player-1.col-2.row-7:checked ~ input.player-1.col-3.row-6:checked ~ input.player-1.col-4.row-5:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-6.row-7:checked ~ input.player-1.col-7.row-6:checked ~ input.player-1.col-8.row-5:checked ~ input.player-1.col-9.row-4:checked ~ .end {
+input.player-1.col-2.row-8:checked ~ input.player-1.col-3.row-7:checked ~ input.player-1.col-4.row-6:checked ~ input.player-1.col-5.row-5:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-6.row-7:checked ~ input.player-1.col-7.row-6:checked ~ input.player-1.col-8.row-5:checked ~ input.player-1.col-9.row-4:checked ~ .end h3:before {
+input.player-1.col-2.row-8:checked ~ input.player-1.col-3.row-7:checked ~ input.player-1.col-4.row-6:checked ~ input.player-1.col-5.row-5:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-7.row-7:checked ~ input.player-1.col-8.row-6:checked ~ input.player-1.col-9.row-5:checked ~ input.player-1.col-10.row-4:checked ~ .end {
+input.player-1.col-3.row-8:checked ~ input.player-1.col-4.row-7:checked ~ input.player-1.col-5.row-6:checked ~ input.player-1.col-6.row-5:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-7.row-7:checked ~ input.player-1.col-8.row-6:checked ~ input.player-1.col-9.row-5:checked ~ input.player-1.col-10.row-4:checked ~ .end h3:before {
+input.player-1.col-3.row-8:checked ~ input.player-1.col-4.row-7:checked ~ input.player-1.col-5.row-6:checked ~ input.player-1.col-6.row-5:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1101,27 +1125,27 @@ input.player-1.col-4.row-8:checked ~ input.player-1.col-5.row-7:checked ~ input.
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-5.row-8:checked ~ input.player-1.col-6.row-7:checked ~ input.player-1.col-7.row-6:checked ~ input.player-1.col-8.row-5:checked ~ .end {
+input.player-1.col-1.row-9:checked ~ input.player-1.col-2.row-8:checked ~ input.player-1.col-3.row-7:checked ~ input.player-1.col-4.row-6:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-5.row-8:checked ~ input.player-1.col-6.row-7:checked ~ input.player-1.col-7.row-6:checked ~ input.player-1.col-8.row-5:checked ~ .end h3:before {
+input.player-1.col-1.row-9:checked ~ input.player-1.col-2.row-8:checked ~ input.player-1.col-3.row-7:checked ~ input.player-1.col-4.row-6:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-6.row-8:checked ~ input.player-1.col-7.row-7:checked ~ input.player-1.col-8.row-6:checked ~ input.player-1.col-9.row-5:checked ~ .end {
+input.player-1.col-2.row-9:checked ~ input.player-1.col-3.row-8:checked ~ input.player-1.col-4.row-7:checked ~ input.player-1.col-5.row-6:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-6.row-8:checked ~ input.player-1.col-7.row-7:checked ~ input.player-1.col-8.row-6:checked ~ input.player-1.col-9.row-5:checked ~ .end h3:before {
+input.player-1.col-2.row-9:checked ~ input.player-1.col-3.row-8:checked ~ input.player-1.col-4.row-7:checked ~ input.player-1.col-5.row-6:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-1.col-7.row-8:checked ~ input.player-1.col-8.row-7:checked ~ input.player-1.col-9.row-6:checked ~ input.player-1.col-10.row-5:checked ~ .end {
+input.player-1.col-3.row-9:checked ~ input.player-1.col-4.row-8:checked ~ input.player-1.col-5.row-7:checked ~ input.player-1.col-6.row-6:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-1.col-7.row-8:checked ~ input.player-1.col-8.row-7:checked ~ input.player-1.col-9.row-6:checked ~ input.player-1.col-10.row-5:checked ~ .end h3:before {
+input.player-1.col-3.row-9:checked ~ input.player-1.col-4.row-8:checked ~ input.player-1.col-5.row-7:checked ~ input.player-1.col-6.row-6:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1130,30 +1154,6 @@ input.player-1.col-4.row-9:checked ~ input.player-1.col-5.row-8:checked ~ input.
 }
 /* line 84, ../sass/_slots.scss */
 input.player-1.col-4.row-9:checked ~ input.player-1.col-5.row-8:checked ~ input.player-1.col-6.row-7:checked ~ input.player-1.col-7.row-6:checked ~ .end h3:before {
-  content: "Player 1 wins !";
-}
-/* line 81, ../sass/_slots.scss */
-input.player-1.col-5.row-9:checked ~ input.player-1.col-6.row-8:checked ~ input.player-1.col-7.row-7:checked ~ input.player-1.col-8.row-6:checked ~ .end {
-  display: block;
-}
-/* line 84, ../sass/_slots.scss */
-input.player-1.col-5.row-9:checked ~ input.player-1.col-6.row-8:checked ~ input.player-1.col-7.row-7:checked ~ input.player-1.col-8.row-6:checked ~ .end h3:before {
-  content: "Player 1 wins !";
-}
-/* line 81, ../sass/_slots.scss */
-input.player-1.col-6.row-9:checked ~ input.player-1.col-7.row-8:checked ~ input.player-1.col-8.row-7:checked ~ input.player-1.col-9.row-6:checked ~ .end {
-  display: block;
-}
-/* line 84, ../sass/_slots.scss */
-input.player-1.col-6.row-9:checked ~ input.player-1.col-7.row-8:checked ~ input.player-1.col-8.row-7:checked ~ input.player-1.col-9.row-6:checked ~ .end h3:before {
-  content: "Player 1 wins !";
-}
-/* line 81, ../sass/_slots.scss */
-input.player-1.col-7.row-9:checked ~ input.player-1.col-8.row-8:checked ~ input.player-1.col-9.row-7:checked ~ input.player-1.col-10.row-6:checked ~ .end {
-  display: block;
-}
-/* line 84, ../sass/_slots.scss */
-input.player-1.col-7.row-9:checked ~ input.player-1.col-8.row-8:checked ~ input.player-1.col-9.row-7:checked ~ input.player-1.col-10.row-6:checked ~ .end h3:before {
   content: "Player 1 wins !";
 }
 /* line 40, ../sass/_slots.scss */
@@ -1733,6 +1733,30 @@ input.player-2.col-7.row-9:checked ~ input.player-2.col-6.row-8:checked ~ input.
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
+input.player-2.col-1.row-4:checked ~ input.player-2.col-2.row-3:checked ~ input.player-2.col-3.row-2:checked ~ input.player-2.col-4.row-1:checked ~ .end {
+  display: block;
+}
+/* line 84, ../sass/_slots.scss */
+input.player-2.col-1.row-4:checked ~ input.player-2.col-2.row-3:checked ~ input.player-2.col-3.row-2:checked ~ input.player-2.col-4.row-1:checked ~ .end h3:before {
+  content: "Player 2 wins !";
+}
+/* line 81, ../sass/_slots.scss */
+input.player-2.col-2.row-4:checked ~ input.player-2.col-3.row-3:checked ~ input.player-2.col-4.row-2:checked ~ input.player-2.col-5.row-1:checked ~ .end {
+  display: block;
+}
+/* line 84, ../sass/_slots.scss */
+input.player-2.col-2.row-4:checked ~ input.player-2.col-3.row-3:checked ~ input.player-2.col-4.row-2:checked ~ input.player-2.col-5.row-1:checked ~ .end h3:before {
+  content: "Player 2 wins !";
+}
+/* line 81, ../sass/_slots.scss */
+input.player-2.col-3.row-4:checked ~ input.player-2.col-4.row-3:checked ~ input.player-2.col-5.row-2:checked ~ input.player-2.col-6.row-1:checked ~ .end {
+  display: block;
+}
+/* line 84, ../sass/_slots.scss */
+input.player-2.col-3.row-4:checked ~ input.player-2.col-4.row-3:checked ~ input.player-2.col-5.row-2:checked ~ input.player-2.col-6.row-1:checked ~ .end h3:before {
+  content: "Player 2 wins !";
+}
+/* line 81, ../sass/_slots.scss */
 input.player-2.col-4.row-4:checked ~ input.player-2.col-5.row-3:checked ~ input.player-2.col-6.row-2:checked ~ input.player-2.col-7.row-1:checked ~ .end {
   display: block;
 }
@@ -1741,27 +1765,27 @@ input.player-2.col-4.row-4:checked ~ input.player-2.col-5.row-3:checked ~ input.
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-5.row-4:checked ~ input.player-2.col-6.row-3:checked ~ input.player-2.col-7.row-2:checked ~ input.player-2.col-8.row-1:checked ~ .end {
+input.player-2.col-1.row-5:checked ~ input.player-2.col-2.row-4:checked ~ input.player-2.col-3.row-3:checked ~ input.player-2.col-4.row-2:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-5.row-4:checked ~ input.player-2.col-6.row-3:checked ~ input.player-2.col-7.row-2:checked ~ input.player-2.col-8.row-1:checked ~ .end h3:before {
+input.player-2.col-1.row-5:checked ~ input.player-2.col-2.row-4:checked ~ input.player-2.col-3.row-3:checked ~ input.player-2.col-4.row-2:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-6.row-4:checked ~ input.player-2.col-7.row-3:checked ~ input.player-2.col-8.row-2:checked ~ input.player-2.col-9.row-1:checked ~ .end {
+input.player-2.col-2.row-5:checked ~ input.player-2.col-3.row-4:checked ~ input.player-2.col-4.row-3:checked ~ input.player-2.col-5.row-2:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-6.row-4:checked ~ input.player-2.col-7.row-3:checked ~ input.player-2.col-8.row-2:checked ~ input.player-2.col-9.row-1:checked ~ .end h3:before {
+input.player-2.col-2.row-5:checked ~ input.player-2.col-3.row-4:checked ~ input.player-2.col-4.row-3:checked ~ input.player-2.col-5.row-2:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-7.row-4:checked ~ input.player-2.col-8.row-3:checked ~ input.player-2.col-9.row-2:checked ~ input.player-2.col-10.row-1:checked ~ .end {
+input.player-2.col-3.row-5:checked ~ input.player-2.col-4.row-4:checked ~ input.player-2.col-5.row-3:checked ~ input.player-2.col-6.row-2:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-7.row-4:checked ~ input.player-2.col-8.row-3:checked ~ input.player-2.col-9.row-2:checked ~ input.player-2.col-10.row-1:checked ~ .end h3:before {
+input.player-2.col-3.row-5:checked ~ input.player-2.col-4.row-4:checked ~ input.player-2.col-5.row-3:checked ~ input.player-2.col-6.row-2:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1773,27 +1797,27 @@ input.player-2.col-4.row-5:checked ~ input.player-2.col-5.row-4:checked ~ input.
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-5.row-5:checked ~ input.player-2.col-6.row-4:checked ~ input.player-2.col-7.row-3:checked ~ input.player-2.col-8.row-2:checked ~ .end {
+input.player-2.col-1.row-6:checked ~ input.player-2.col-2.row-5:checked ~ input.player-2.col-3.row-4:checked ~ input.player-2.col-4.row-3:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-5.row-5:checked ~ input.player-2.col-6.row-4:checked ~ input.player-2.col-7.row-3:checked ~ input.player-2.col-8.row-2:checked ~ .end h3:before {
+input.player-2.col-1.row-6:checked ~ input.player-2.col-2.row-5:checked ~ input.player-2.col-3.row-4:checked ~ input.player-2.col-4.row-3:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-6.row-5:checked ~ input.player-2.col-7.row-4:checked ~ input.player-2.col-8.row-3:checked ~ input.player-2.col-9.row-2:checked ~ .end {
+input.player-2.col-2.row-6:checked ~ input.player-2.col-3.row-5:checked ~ input.player-2.col-4.row-4:checked ~ input.player-2.col-5.row-3:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-6.row-5:checked ~ input.player-2.col-7.row-4:checked ~ input.player-2.col-8.row-3:checked ~ input.player-2.col-9.row-2:checked ~ .end h3:before {
+input.player-2.col-2.row-6:checked ~ input.player-2.col-3.row-5:checked ~ input.player-2.col-4.row-4:checked ~ input.player-2.col-5.row-3:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-7.row-5:checked ~ input.player-2.col-8.row-4:checked ~ input.player-2.col-9.row-3:checked ~ input.player-2.col-10.row-2:checked ~ .end {
+input.player-2.col-3.row-6:checked ~ input.player-2.col-4.row-5:checked ~ input.player-2.col-5.row-4:checked ~ input.player-2.col-6.row-3:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-7.row-5:checked ~ input.player-2.col-8.row-4:checked ~ input.player-2.col-9.row-3:checked ~ input.player-2.col-10.row-2:checked ~ .end h3:before {
+input.player-2.col-3.row-6:checked ~ input.player-2.col-4.row-5:checked ~ input.player-2.col-5.row-4:checked ~ input.player-2.col-6.row-3:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1805,27 +1829,27 @@ input.player-2.col-4.row-6:checked ~ input.player-2.col-5.row-5:checked ~ input.
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-5.row-6:checked ~ input.player-2.col-6.row-5:checked ~ input.player-2.col-7.row-4:checked ~ input.player-2.col-8.row-3:checked ~ .end {
+input.player-2.col-1.row-7:checked ~ input.player-2.col-2.row-6:checked ~ input.player-2.col-3.row-5:checked ~ input.player-2.col-4.row-4:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-5.row-6:checked ~ input.player-2.col-6.row-5:checked ~ input.player-2.col-7.row-4:checked ~ input.player-2.col-8.row-3:checked ~ .end h3:before {
+input.player-2.col-1.row-7:checked ~ input.player-2.col-2.row-6:checked ~ input.player-2.col-3.row-5:checked ~ input.player-2.col-4.row-4:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-6.row-6:checked ~ input.player-2.col-7.row-5:checked ~ input.player-2.col-8.row-4:checked ~ input.player-2.col-9.row-3:checked ~ .end {
+input.player-2.col-2.row-7:checked ~ input.player-2.col-3.row-6:checked ~ input.player-2.col-4.row-5:checked ~ input.player-2.col-5.row-4:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-6.row-6:checked ~ input.player-2.col-7.row-5:checked ~ input.player-2.col-8.row-4:checked ~ input.player-2.col-9.row-3:checked ~ .end h3:before {
+input.player-2.col-2.row-7:checked ~ input.player-2.col-3.row-6:checked ~ input.player-2.col-4.row-5:checked ~ input.player-2.col-5.row-4:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-7.row-6:checked ~ input.player-2.col-8.row-5:checked ~ input.player-2.col-9.row-4:checked ~ input.player-2.col-10.row-3:checked ~ .end {
+input.player-2.col-3.row-7:checked ~ input.player-2.col-4.row-6:checked ~ input.player-2.col-5.row-5:checked ~ input.player-2.col-6.row-4:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-7.row-6:checked ~ input.player-2.col-8.row-5:checked ~ input.player-2.col-9.row-4:checked ~ input.player-2.col-10.row-3:checked ~ .end h3:before {
+input.player-2.col-3.row-7:checked ~ input.player-2.col-4.row-6:checked ~ input.player-2.col-5.row-5:checked ~ input.player-2.col-6.row-4:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1837,27 +1861,27 @@ input.player-2.col-4.row-7:checked ~ input.player-2.col-5.row-6:checked ~ input.
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-5.row-7:checked ~ input.player-2.col-6.row-6:checked ~ input.player-2.col-7.row-5:checked ~ input.player-2.col-8.row-4:checked ~ .end {
+input.player-2.col-1.row-8:checked ~ input.player-2.col-2.row-7:checked ~ input.player-2.col-3.row-6:checked ~ input.player-2.col-4.row-5:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-5.row-7:checked ~ input.player-2.col-6.row-6:checked ~ input.player-2.col-7.row-5:checked ~ input.player-2.col-8.row-4:checked ~ .end h3:before {
+input.player-2.col-1.row-8:checked ~ input.player-2.col-2.row-7:checked ~ input.player-2.col-3.row-6:checked ~ input.player-2.col-4.row-5:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-6.row-7:checked ~ input.player-2.col-7.row-6:checked ~ input.player-2.col-8.row-5:checked ~ input.player-2.col-9.row-4:checked ~ .end {
+input.player-2.col-2.row-8:checked ~ input.player-2.col-3.row-7:checked ~ input.player-2.col-4.row-6:checked ~ input.player-2.col-5.row-5:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-6.row-7:checked ~ input.player-2.col-7.row-6:checked ~ input.player-2.col-8.row-5:checked ~ input.player-2.col-9.row-4:checked ~ .end h3:before {
+input.player-2.col-2.row-8:checked ~ input.player-2.col-3.row-7:checked ~ input.player-2.col-4.row-6:checked ~ input.player-2.col-5.row-5:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-7.row-7:checked ~ input.player-2.col-8.row-6:checked ~ input.player-2.col-9.row-5:checked ~ input.player-2.col-10.row-4:checked ~ .end {
+input.player-2.col-3.row-8:checked ~ input.player-2.col-4.row-7:checked ~ input.player-2.col-5.row-6:checked ~ input.player-2.col-6.row-5:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-7.row-7:checked ~ input.player-2.col-8.row-6:checked ~ input.player-2.col-9.row-5:checked ~ input.player-2.col-10.row-4:checked ~ .end h3:before {
+input.player-2.col-3.row-8:checked ~ input.player-2.col-4.row-7:checked ~ input.player-2.col-5.row-6:checked ~ input.player-2.col-6.row-5:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1869,27 +1893,27 @@ input.player-2.col-4.row-8:checked ~ input.player-2.col-5.row-7:checked ~ input.
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-5.row-8:checked ~ input.player-2.col-6.row-7:checked ~ input.player-2.col-7.row-6:checked ~ input.player-2.col-8.row-5:checked ~ .end {
+input.player-2.col-1.row-9:checked ~ input.player-2.col-2.row-8:checked ~ input.player-2.col-3.row-7:checked ~ input.player-2.col-4.row-6:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-5.row-8:checked ~ input.player-2.col-6.row-7:checked ~ input.player-2.col-7.row-6:checked ~ input.player-2.col-8.row-5:checked ~ .end h3:before {
+input.player-2.col-1.row-9:checked ~ input.player-2.col-2.row-8:checked ~ input.player-2.col-3.row-7:checked ~ input.player-2.col-4.row-6:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-6.row-8:checked ~ input.player-2.col-7.row-7:checked ~ input.player-2.col-8.row-6:checked ~ input.player-2.col-9.row-5:checked ~ .end {
+input.player-2.col-2.row-9:checked ~ input.player-2.col-3.row-8:checked ~ input.player-2.col-4.row-7:checked ~ input.player-2.col-5.row-6:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-6.row-8:checked ~ input.player-2.col-7.row-7:checked ~ input.player-2.col-8.row-6:checked ~ input.player-2.col-9.row-5:checked ~ .end h3:before {
+input.player-2.col-2.row-9:checked ~ input.player-2.col-3.row-8:checked ~ input.player-2.col-4.row-7:checked ~ input.player-2.col-5.row-6:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
-input.player-2.col-7.row-8:checked ~ input.player-2.col-8.row-7:checked ~ input.player-2.col-9.row-6:checked ~ input.player-2.col-10.row-5:checked ~ .end {
+input.player-2.col-3.row-9:checked ~ input.player-2.col-4.row-8:checked ~ input.player-2.col-5.row-7:checked ~ input.player-2.col-6.row-6:checked ~ .end {
   display: block;
 }
 /* line 84, ../sass/_slots.scss */
-input.player-2.col-7.row-8:checked ~ input.player-2.col-8.row-7:checked ~ input.player-2.col-9.row-6:checked ~ input.player-2.col-10.row-5:checked ~ .end h3:before {
+input.player-2.col-3.row-9:checked ~ input.player-2.col-4.row-8:checked ~ input.player-2.col-5.row-7:checked ~ input.player-2.col-6.row-6:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 /* line 81, ../sass/_slots.scss */
@@ -1898,30 +1922,6 @@ input.player-2.col-4.row-9:checked ~ input.player-2.col-5.row-8:checked ~ input.
 }
 /* line 84, ../sass/_slots.scss */
 input.player-2.col-4.row-9:checked ~ input.player-2.col-5.row-8:checked ~ input.player-2.col-6.row-7:checked ~ input.player-2.col-7.row-6:checked ~ .end h3:before {
-  content: "Player 2 wins !";
-}
-/* line 81, ../sass/_slots.scss */
-input.player-2.col-5.row-9:checked ~ input.player-2.col-6.row-8:checked ~ input.player-2.col-7.row-7:checked ~ input.player-2.col-8.row-6:checked ~ .end {
-  display: block;
-}
-/* line 84, ../sass/_slots.scss */
-input.player-2.col-5.row-9:checked ~ input.player-2.col-6.row-8:checked ~ input.player-2.col-7.row-7:checked ~ input.player-2.col-8.row-6:checked ~ .end h3:before {
-  content: "Player 2 wins !";
-}
-/* line 81, ../sass/_slots.scss */
-input.player-2.col-6.row-9:checked ~ input.player-2.col-7.row-8:checked ~ input.player-2.col-8.row-7:checked ~ input.player-2.col-9.row-6:checked ~ .end {
-  display: block;
-}
-/* line 84, ../sass/_slots.scss */
-input.player-2.col-6.row-9:checked ~ input.player-2.col-7.row-8:checked ~ input.player-2.col-8.row-7:checked ~ input.player-2.col-9.row-6:checked ~ .end h3:before {
-  content: "Player 2 wins !";
-}
-/* line 81, ../sass/_slots.scss */
-input.player-2.col-7.row-9:checked ~ input.player-2.col-8.row-8:checked ~ input.player-2.col-9.row-7:checked ~ input.player-2.col-10.row-6:checked ~ .end {
-  display: block;
-}
-/* line 84, ../sass/_slots.scss */
-input.player-2.col-7.row-9:checked ~ input.player-2.col-8.row-8:checked ~ input.player-2.col-9.row-7:checked ~ input.player-2.col-10.row-6:checked ~ .end h3:before {
   content: "Player 2 wins !";
 }
 
