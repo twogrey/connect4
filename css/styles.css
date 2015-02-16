@@ -1957,6 +1957,12 @@ footer {
   margin-bottom: 20px;
 }
 /* line 25, ../sass/_page.scss */
+footer:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/* line 30, ../sass/_page.scss */
 footer a {
   padding: 10px 20px;
   text-transform: uppercase;
@@ -1976,15 +1982,15 @@ footer a {
   -moz-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 32, ../sass/_page.scss */
+/* line 37, ../sass/_page.scss */
 footer a:first-of-type {
   float: left;
 }
-/* line 35, ../sass/_page.scss */
+/* line 40, ../sass/_page.scss */
 footer a:last-of-type {
   float: right;
 }
-/* line 38, ../sass/_page.scss */
+/* line 43, ../sass/_page.scss */
 footer a:hover {
   background-color: #2980b9;
   color: white;
