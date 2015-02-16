@@ -1,0 +1,25 @@
+// Colors
+
+$blue: #2980b9;
+$lightblue: #57AEE7;
+$red: #c0392b;
+$yellow: #f1c40f;
+$lightgrey: #d0d0d0;
+
+// Page
+
+$bgcolor-body: #0D4E78;
+
+// Grid 
+
+$nbCol: 7; // Number of columns
+$nbRow: 6; // Number of rows
+
+// Sizes
+
+$slot-gutter: 10px; // Space between slots
+$slot-size: 85px; // Size of slots
+$slot-complete-size: $slot-gutter*2+$slot-size;
+$width-socle: $slot-size*$nbCol+$slot-gutter*$nbCol*2; // Width of the socle
+$height-socle: $slot-size*$nbRow+$slot-gutter*$nbRow*2; // Width of the socle
+$base-font-size: 14px;

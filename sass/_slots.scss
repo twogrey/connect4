@@ -1,0 +1,94 @@
+.slot {
+	@include size(85px); 
+	@include border-radius-separate(100%,100%,100%,100%);
+	display: block;
+	float: left;
+	margin: $slot-gutter;
+	cursor: pointer;
+	background-color: white;
+	@include transition(.1s, linear);
+	border-bottom: 2px solid #676767;
+	border-left: 1px solid #676767;
+	border-right: 1px solid #676767;
+	box-shadow: inset 0 2px 0 #87D0FF;
+	&:hover {
+		background-color: $lightgrey;
+	}
+}
+
+input {
+	display: none;
+	&:checked + .slot {
+		cursor: not-allowed;
+	}
+	&.player-1 {
+		+ .slot { 
+			background-color: $yellow; 
+			box-shadow: inset 0 2px 0 #BD990A, inset 0 -5px 20px 0 rgba(0, 0, 0, 0.25);
+		}
+	}
+	&.player-2 {
+		+ .slot { 
+			background-color: $red; 
+			box-shadow: inset 0 2px 0 #9D2E22, inset 0 -5px 20px 0 rgba(0, 0, 0, 0.25);
+		}
+	}
+	@for $z from 1 through 2 {
+		&.player-#{$z} {
+			@for $j from 1 through $nbRow { // Victory with a completed row
+				&.row-#{$j}:checked + label + &.row-#{$j}:checked + label + &.row-#{$j}:checked + label + &.row-#{$j}:checked {
+					~ .end {
+						display: block;
+						h3 {
+							&:before {
+								content: 'Player #{$z} wins !';
+							}
+						}
+					}
+				}
+			}
+			@for $j from 1 through $nbRow { // Victory with a completed column
+				@for $k from 1 through $nbCol {
+					&.col-#{$k}.row-#{$j+3}:checked ~ &.col-#{$k}.row-#{$j+2}:checked ~ &.col-#{$k}.row-#{$j+1}:checked ~ &.col-#{$k}.row-#{$j}:checked {
+						~ .end {
+							display: block;
+							h3 {
+								&:before {
+									content: 'Player #{$z} wins !';
+								}
+							}
+						}
+					}
+				}
+			}
+			@for $j from 1 through $nbRow { // Victory with a completed diagonal (to the right)
+				@for $k from 4 through $nbCol {
+					&.col-#{$k}.row-#{$j + 3}:checked ~ &.col-#{$k - 1}.row-#{$j + 2}:checked ~ &.col-#{$k - 2}.row-#{$j + 1}:checked ~ &.col-#{$k - 3}.row-#{$j}:checked {
+						~ .end {
+							display: block;
+							h3 {
+								&:before {
+									content: 'Player #{$z} wins !';
+								}
+							}
+						}
+					}
+				}
+			}
+			@for $j from 1 through $nbRow { // Victory with a completed diagonal (to the left)
+				@for $k from 4 through $nbCol {
+					&.col-#{$k}.row-#{$j + 3}:checked ~ &.col-#{$k + 1}.row-#{$j + 2}:checked ~ &.col-#{$k + 2}.row-#{$j + 1}:checked ~ &.col-#{$k + 3}.row-#{$j}:checked {
+						~ .end {
+							display: block;
+							h3 {
+								&:before {
+									content: 'Player #{$z} wins !';
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

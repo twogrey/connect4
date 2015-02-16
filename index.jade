@@ -1,0 +1,48 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title Connect 4
+		meta(name='description', content='Pure CSS Connect 4')
+		meta(name='viewport', content='width=device-width')
+		link(rel='stylesheet', href='css/styles.css')
+		script(src='js/jquery.js')
+		script(src='js/script.js')
+
+	body
+		h1 Pure CSS Connect 4
+		section#socle
+				//- Numbers of columns
+				- var nbCol = 7
+				//- Numbers of rows
+				- var nbRow = 6
+				- var n = nbRow
+				//- Create the slots
+				while n > 0
+					- var m = 1
+					while m <= nbCol
+						input(
+							class='col-#{m} row-#{n}'
+							type='radio'
+							id='slot#{m}#{n}'
+						)
+						label(
+							class="slot"
+							for="slot#{m}#{n}"
+						)
+						- m++
+					- n--
+				//- Create the divs which prevents some clicks
+				- m = 1
+				while m <= nbCol
+					div(
+						class='overlay column-#{m}'
+					)
+					- m++
+				.end
+					.content
+						h3
+						a(href="") Restart
+		footer
+			a(href="https://github.com/twogrey/connect4") View on GitHub/connect4
+			a(href="http://alexisdegryse.fr") See my other stuff
