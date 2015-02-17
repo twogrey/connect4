@@ -1,18 +1,28 @@
 .slot {
-	@include size(85px); 
+	@include size($slot-size); 
+	margin: $slot-gutter;
 	@include border-radius-separate(100%,100%,100%,100%);
 	display: block;
 	float: left;
-	margin: $slot-gutter;
 	cursor: pointer;
 	background-color: white;
 	@include transition(.1s, linear);
+	-webkit-transition: width 0s, height 0s, margin 0;
+	transition: width 0s, height 0s, margin 0;
 	border-bottom: 2px solid #676767;
 	border-left: 1px solid #676767;
 	border-right: 1px solid #676767;
 	box-shadow: inset 0 2px 0 #87D0FF;
 	&:hover {
 		background-color: $lightgrey;
+	}
+	@media #{$below768} {
+		@include size($tab-slot-size); 
+		margin: $tab-slot-gutter;
+	}
+	@media #{$below480} {
+		@include size($mob-slot-size); 
+		margin: $mob-slot-gutter;
 	}
 }
 

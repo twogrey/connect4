@@ -13,12 +13,21 @@ h1 {
 	margin: 30px 0;
 	font-size: 36px;
 	color: white;
+	@media #{$below480} {
+		font-size: 30px;
+	}
 }
 
 aside {
 	width: $width-socle;
 	@include center-block;
 	margin-bottom: 10px;
+	@media #{$below768} {
+		width: $tab-width-socle;
+	}
+	@media #{$below480} {
+		width: $mob-width-socle;
+	}
 	&:after {
 		content:'';
 		display: table;
@@ -59,7 +68,12 @@ footer {
 	width: $width-socle;
 	@include center-block;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	@media #{$below768} {
+		width: $tab-width-socle;
+	}
+	@media #{$below480} {
+		width: $mob-width-socle;
+	}
 	&:after {
 		content:'';
 		display: table;
@@ -67,6 +81,7 @@ footer {
 	}
 	a {
 		padding: 10px 20px;
+		margin-bottom: 20px;
 		text-transform: uppercase;
 		font-weight: bold;
 		color: $blue;
