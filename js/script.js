@@ -9,6 +9,7 @@ $(document).ready(function() {
         } else {
             $(this).addClass('player-1');
         }
+        $('aside > span').toggleClass('inactive');
     }); 
 
 });

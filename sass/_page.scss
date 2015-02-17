@@ -40,6 +40,9 @@ aside {
 		font-weight: bold;
 		line-height: 20px;
 		margin-left: 30px;
+		&.inactive {
+			@include opacity(0.5);
+		}
 		&:before {
 			content:'';
 			width: 20px;

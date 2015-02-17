@@ -2454,6 +2454,11 @@ aside span {
   margin-left: 30px;
 }
 /* line 43, ../sass/_page.scss */
+aside span.inactive {
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+/* line 46, ../sass/_page.scss */
 aside span:before {
   content: '';
   width: 20px;
@@ -2474,16 +2479,16 @@ aside span:before {
   -moz-border-bottom-left-radius: 100%;
   border-bottom-left-radius: 100%;
 }
-/* line 53, ../sass/_page.scss */
+/* line 56, ../sass/_page.scss */
 aside span:first-of-type:before {
   background-color: #c0392b;
 }
-/* line 58, ../sass/_page.scss */
+/* line 61, ../sass/_page.scss */
 aside span:last-of-type:before {
   background-color: #f1c40f;
 }
 
-/* line 65, ../sass/_page.scss */
+/* line 68, ../sass/_page.scss */
 footer {
   position: relative;
   z-index: 2;
@@ -2494,24 +2499,24 @@ footer {
   margin-top: 20px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 65, ../sass/_page.scss */
+  /* line 68, ../sass/_page.scss */
   footer {
     width: 420px;
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 65, ../sass/_page.scss */
+  /* line 68, ../sass/_page.scss */
   footer {
     width: 280px;
   }
 }
-/* line 77, ../sass/_page.scss */
+/* line 80, ../sass/_page.scss */
 footer:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 82, ../sass/_page.scss */
+/* line 85, ../sass/_page.scss */
 footer a {
   padding: 10px 20px;
   margin-bottom: 20px;
@@ -2532,15 +2537,15 @@ footer a {
   -moz-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 90, ../sass/_page.scss */
+/* line 93, ../sass/_page.scss */
 footer a:first-of-type {
   float: left;
 }
-/* line 93, ../sass/_page.scss */
+/* line 96, ../sass/_page.scss */
 footer a:last-of-type {
   float: right;
 }
-/* line 96, ../sass/_page.scss */
+/* line 99, ../sass/_page.scss */
 footer a:hover {
   background-color: #2980b9;
   color: white;
