@@ -6,9 +6,8 @@
 	float: left;
 	cursor: pointer;
 	background-color: white;
-	@include transition(.1s, linear);
-	-webkit-transition: width 0s, height 0s, margin 0;
-	transition: width 0s, height 0s, margin 0;
+	-webkit-transition: background-color .3s, width 0s, height 0s, margin 0;
+	transition: background-color .3s, width 0s, height 0s, margin 0;
 	border-bottom: 2px solid #676767;
 	border-left: 1px solid #676767;
 	border-right: 1px solid #676767;
