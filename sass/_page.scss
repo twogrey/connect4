@@ -13,20 +13,21 @@ h1 {
 	margin: 30px 0;
 	font-size: 36px;
 	color: white;
-	@media #{$below480} {
+	@media #{$small-down} {
 		font-size: 30px;
 	}
-}
+} 
 
 aside {
 	width: $width-socle;
 	@include center-block;
 	margin-bottom: 10px;
-	@media #{$below768} {
-		width: $tab-width-socle;
+	text-align: right;
+	@media #{$medium-down} {
+		width: $medium-width-socle;
 	}
-	@media #{$below480} {
-		width: $mob-width-socle;
+	@media #{$small-down} {
+		width: $small-width-socle;
 	}
 	&:after {
 		content:'';
@@ -34,7 +35,6 @@ aside {
 		clear: both;
 	}
 	span {
-		float: right;
 		color: white;
 		font-size: 14px;
 		font-weight: bold;
@@ -54,12 +54,12 @@ aside {
 		}
 		&:first-of-type {
 			&:before {
-				background-color: $red;
+				background-color: $yellow;
 			}
 		}
 		&:last-of-type {
 			&:before {
-				background-color: $yellow;
+				background-color: $red;
 			}
 		}
 	}
@@ -71,11 +71,11 @@ footer {
 	width: $width-socle;
 	@include center-block;
 	margin-top: 20px;
-	@media #{$below768} {
-		width: $tab-width-socle;
+	@media #{$medium-down} {
+		width: $medium-width-socle;
 	}
-	@media #{$below480} {
-		width: $mob-width-socle;
+	@media #{$small-down} {
+		width: $small-width-socle;
 	}
 	&:after {
 		content:'';

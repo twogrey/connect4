@@ -17,8 +17,8 @@ $nbRow: 6; // Number of rows
 
 // MQ 
 
-$below768: "only screen and (max-width : 768px)";
-$below480: "only screen and (max-width : 480px)";
+$medium-down: "only screen and (max-width : 768px)";
+$small-down: "only screen and (max-width : 480px)";
 
 // Sizes for large screen
 
@@ -31,16 +31,16 @@ $base-font-size: 14px;
 
 // Sizes for medium screen
 
-$tab-slot-gutter: 5px; // Space between slots
-$tab-slot-size: 50px; // Size of slots
-$tab-slot-complete-size: $tab-slot-gutter*2+$tab-slot-size;
-$tab-width-socle: $tab-slot-size*$nbCol+$tab-slot-gutter*$nbCol*2; // Width of the socle
-$tab-height-socle: $tab-slot-size*$nbRow+$tab-slot-gutter*$nbRow*2; // Width of the socle
+$medium-slot-gutter: 5px; // Space between slots
+$medium-slot-size: 50px; // Size of slots
+$medium-slot-complete-size: $medium-slot-gutter*2+$medium-slot-size;
+$medium-width-socle: $medium-slot-size*$nbCol+$medium-slot-gutter*$nbCol*2; // Width of the socle
+$medium-height-socle: $medium-slot-size*$nbRow+$medium-slot-gutter*$nbRow*2; // Width of the socle
 
 // Sizes for small screen
 
-$mob-slot-gutter: 5px; // Space between slots
-$mob-slot-size: 30px; // Size of slots
-$mob-slot-complete-size: $mob-slot-gutter*2+$mob-slot-size;
-$mob-width-socle: $mob-slot-size*$nbCol+$mob-slot-gutter*$nbCol*2; // Width of the socle
-$mob-height-socle: $mob-slot-size*$nbRow+$mob-slot-gutter*$nbRow*2; // Width of the socle
+$small-slot-gutter: 5px; // Space between slots
+$small-slot-size: 30px; // Size of slots
+$small-slot-complete-size: $small-slot-gutter*2+$small-slot-size;
+$small-width-socle: $small-slot-size*$nbCol+$small-slot-gutter*$nbCol*2; // Width of the socle
+$small-height-socle: $small-slot-size*$nbRow+$small-slot-gutter*$nbRow*2; // Width of the socle

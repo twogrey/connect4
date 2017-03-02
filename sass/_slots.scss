@@ -2,8 +2,8 @@
 	@include size($slot-size); 
 	margin: $slot-gutter;
 	@include border-radius-separate(100%,100%,100%,100%);
-	display: block;
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 	cursor: pointer;
 	background-color: white;
 	-webkit-transition: background-color .3s, width 0s, height 0s, margin 0;
@@ -18,13 +18,13 @@
 	&:hover {
 		background-color: $lightgrey;
 	}
-	@media #{$below768} {
-		@include size($tab-slot-size); 
-		margin: $tab-slot-gutter;
+	@media #{$medium-down} {
+		@include size($medium-slot-size); 
+		margin: $medium-slot-gutter;
 	}
-	@media #{$below480} {
-		@include size($mob-slot-size); 
-		margin: $mob-slot-gutter;
+	@media #{$small-down} {
+		@include size($small-slot-size); 
+		margin: $small-slot-gutter;
 	}
 }
 
